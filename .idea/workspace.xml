@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="" />
+    <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Auxx/Auxx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +40,21 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1htH9uX3TKVD89kVrvzjoFwwYiS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,13 +62,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work Space\React\tabular-dashboard\src\components\TableContent" />
+      <recent name="D:\Work Space\React\tabular-dashboard\src\components\Table" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,7 +91,40 @@
       <option name="presentableId" value="Default" />
       <updated>1600823319873</updated>
       <workItem from="1600823323506" duration="78000" />
+      <workItem from="1600879114403" duration="14397000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600901944487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600901944487" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1600921834324">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600921834324" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1600907716247">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600907716247" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600912913467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600912913467" />
   </component>
 </project>
