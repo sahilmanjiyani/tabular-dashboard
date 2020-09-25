@@ -1,0 +1,18 @@
+.sort-icon > * {
+    display: block;
+    color: #ffffff;
+}
+
+th > span {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+span.sort-icon > * {
+    cursor: pointer;
+}
+
+
+
+

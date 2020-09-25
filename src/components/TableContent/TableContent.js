@@ -1,23 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Auxx from "../../hoc/Auxx/Auxx";
 import TableHead from "./TableHead/TableHead";
 import TableBody from "./TableBody/TableBody";
+import TableFilter from "./TableFilter/TableFilter";
 
 import classes from './TableContent.css';
 
-const tableContent = (props) => {
-    console.log(props)
+
+
+const TableContent = (props) => {
+    const [order, setOrder] = useState("asc");
+    const [field, setField] = useState("asc");
+
+    const orderFunc = (ord, fld) => {
+        setOrder(ord);
+        setField(fld);
+    }
+
     return(
         <Auxx>
             <table className="dashboard-table"
                    cellPadding="0"
                    cellSpacing="0" >
                 <thead>
-                    <TableHead></TableHead>
+                    <TableHead orderFunction={(order, field) => orderFunc(order, field)}></TableHead>
                 </thead>
                 <tbody>
-                    <TableBody tableContent={props.content}></TableBody>
+                    <TableFilter></TableFilter>
+                    <TableBody tableContent={props.content}
+                                tableSort={{ order, field }}></TableBody>
                 </tbody>
 
             </table>
@@ -25,4 +37,4 @@ const tableContent = (props) => {
     );
 }
 
-export default tableContent;
+export default TableContent;

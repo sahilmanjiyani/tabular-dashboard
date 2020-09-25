@@ -1,78 +1,41 @@
 import React, { Component } from 'react';
-import axios from "axios";
 
 import Auxx from "../../hoc/Auxx/Auxx";
 import Header from '../../components/Header/Header';
 import TableContent from '../../components/TableContent/TableContent';
-import classes from './Dashboard.css';
+import './Dashboard.css';
+import myData from '../../data/myData.json';
 
 class Dashboard extends Component {
 
-    state = {
-        notices: [
-            {
-                id: 1,
-                date: '11-11-11',
-                type: 'notice',
-                name: 'amenity',
-                email: 'jd@gmail.com',
-                phone: 9876543210,
-                address: '348 Queens street',
-                city: 'Toronto',
-                province: 'Ontario',
-            },
-            {
-                id: 2,
-                date: '11-11-11',
-                type: 'notice',
-                name: 'amenity',
-                email: 'jd@gmail.com',
-                phone: 9876543210,
-                address: '348 Queens street',
-                city: 'Toronto',
-                province: 'Ontario',
-            },
-            {
-                id: 3,
-                date: '11-11-11',
-                type: 'notice',
-                name: 'amenity',
-                email: 'jd@gmail.com',
-                phone: 9876543210,
-                address: '348 Queens street',
-                city: 'Toronto',
-                province: 'Ontario',
-            },
-            {
-                id: 4,
-                date: '11-11-11',
-                type: 'notice',
-                name: 'amenity',
-                email: 'jd@gmail.com',
-                phone: 9876543210,
-                address: '348 Queens street',
-                city: 'Toronto',
-                province: 'Ontario',
-            }
-        ]
+    constructor(props) {
+        super(props);
+        this.state = {
+            notices: []
+        };
     }
 
-    // componentDidMount() {
-    //     axios.get(`http://app.toronto.ca/nm/notices.json`)
-    //         .then(res => {
-    //             console.log(res.data);
-    //             const notices = res.data;
-    //             this.setState({ notices });
-    //         })
-    // }
+    componentDidMount() {
+        this.setState({ notices: myData });
+        console.log(this.state);
+    }
+
+    displayTable() {
+        console.log(this.state);
+        if(this.state.notices === {}) {
+            return(<p>Loading...</p>);
+        }
+        return(<TableContent content={this.state.notices}></TableContent>);
+    }
 
     render() {
-        return(
-            <Auxx>
-                <Header></Header>
-                <TableContent content={this.state.notices}></TableContent>
-            </Auxx>
-        );
+        console.log(this.props);
+            return(
+                <Auxx>
+                    <Header />
+                    { this.displayTable() }
+                </Auxx>
+            );
     }
 }
 

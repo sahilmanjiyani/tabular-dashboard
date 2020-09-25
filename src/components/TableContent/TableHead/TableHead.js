@@ -1,24 +1,36 @@
 import React from "react";
 
+import { faSortUp, faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import Auxx from "../../../hoc/Auxx/Auxx";
 import './TableHead.css';
 
-const tableHead = (props) => {
+const TableHead = (props) => {
+
     return(
         <Auxx>
             <tr>
-                <th>Id</th>
-                <th>Date</th>
-                <th>Type</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Address</th>
-                <th>City</th>
-                <th>Phone</th>
-                <th>Province</th>
+                {
+                    title.map(ele => {
+                        return(
+                            <th>
+                                <span>{ele}</span>
+                                <span className="sort-icon">
+                                    <FontAwesomeIcon onClick={() => props.orderFunction('asc', {ele})}
+                                                     icon={faSortUp} />
+                                    <FontAwesomeIcon onClick={() => props.orderFunction('des', {ele})}
+                                                     icon={faSortDown} />
+                                </span>
+                            </th>
+                        );
+                    })
+                }
             </tr>
         </Auxx>
     );
 }
 
-export default tableHead;
+const title = [ "Id", "Date", "Type", "Name", "Email", "Phone", "Address", "City", "Province" ];
+
+export default TableHead;

@@ -11,26 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Auxx/Auxx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/myData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/rawData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +70,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work Space\React\tabular-dashboard\src" />
       <recent name="D:\Work Space\React\tabular-dashboard\src\components\TableContent" />
       <recent name="D:\Work Space\React\tabular-dashboard\src\components\Table" />
     </key>
@@ -91,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600823319873</updated>
       <workItem from="1600823323506" duration="78000" />
-      <workItem from="1600879114403" duration="14397000" />
+      <workItem from="1600879114403" duration="15440000" />
+      <workItem from="1600954219188" duration="27117000" />
     </task>
     <servers />
   </component>
@@ -108,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600901944487">
@@ -118,10 +115,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600921834324" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1600907716247">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600924910544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600907716247" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600924910544" />
+    <state x="476" y="152" key="git4idea.merge.GitPullDialog" timestamp="1600924887881">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1600924887881" />
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600924865807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600924865807" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1600992766198">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600992766198" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600912913467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
