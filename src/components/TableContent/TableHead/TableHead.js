@@ -8,29 +8,40 @@ import './TableHead.css';
 
 const TableHead = (props) => {
 
+    const title = [ "Id", "Date", "Type", "Name", "Email", "Phone", "Address", "City", "Province" ];
+    const sortTitle = ["Id", "Date", "Name", "Email", "Address"];
+
+    const sortIcon = (eleTitle) => {
+        return (
+            <span className="sort-icon">
+                <FontAwesomeIcon onClick={() => props.orderFunction('asc', eleTitle)}
+                                    icon={faSortUp} />
+                <FontAwesomeIcon onClick={() => props.orderFunction('des', eleTitle)}
+                                    icon={faSortDown} />
+            </span>
+        )
+    }
+
     return(
-        <Auxx>
-            <tr>
-                {
-                    title.map(ele => {
-                        return(
-                            <th>
-                                <span>{ele}</span>
-                                <span className="sort-icon">
-                                    <FontAwesomeIcon onClick={() => props.orderFunction('asc', {ele})}
-                                                     icon={faSortUp} />
-                                    <FontAwesomeIcon onClick={() => props.orderFunction('des', {ele})}
-                                                     icon={faSortDown} />
-                                </span>
-                            </th>
-                        );
-                    })
-                }
-            </tr>
-        </Auxx>
+    <Auxx>
+        <tr>
+        {
+            title.map(ele => (
+                <th key={ele}>
+                    <span>{ele}</span>
+                    {
+                        (sortTitle.includes(ele)) ? sortIcon(ele) : ''
+                    }
+                    
+                </th>
+                )
+            )
+        }
+        </tr>
+    </Auxx>
     );
 }
 
-const title = [ "Id", "Date", "Type", "Name", "Email", "Phone", "Address", "City", "Province" ];
+
 
 export default TableHead;

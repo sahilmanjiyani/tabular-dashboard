@@ -5,7 +5,7 @@ import TableHead from "./TableHead/TableHead";
 import TableBody from "./TableBody/TableBody";
 import TableFilter from "./TableFilter/TableFilter";
 
-import classes from './TableContent.css';
+import './TableContent.css';
 
 
 
@@ -28,7 +28,7 @@ const TableContent = (props) => {
                 </thead>
                 <tbody>
                     <TableFilter></TableFilter>
-                    <TableBody tableContent={props.content}
+                    <TableBody  tableContent={props.content}
                                 tableSort={{ order, field }}></TableBody>
                 </tbody>
 

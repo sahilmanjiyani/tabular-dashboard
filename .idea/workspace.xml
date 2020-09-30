@@ -11,20 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/myData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/rawData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Dashboard/Dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,7 @@
       <updated>1600823319873</updated>
       <workItem from="1600823323506" duration="78000" />
       <workItem from="1600879114403" duration="15440000" />
-      <workItem from="1600954219188" duration="27117000" />
+      <workItem from="1600954219188" duration="28379000" />
     </task>
     <servers />
   </component>
