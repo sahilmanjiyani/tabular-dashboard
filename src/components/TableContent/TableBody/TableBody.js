@@ -5,25 +5,26 @@ import './TableBody.css';
 
 
 const TableBody = (props) => {
-    const [ content, setContent ] = useState(props.tableContent);
-
+    // const [ content, setContent ] = useState(props.tableContent);
+    var content = props.tableContent;
     //var content = props.tableContent;
     const filter = () => {        
         var tempArray = content;
-
+        console.log("in filter")
         tempArray.sort(
             (a,b) => (a.noticeId < b.noticeId) ? 1 : ((b.noticeId < a.noticeId) ? -1 : 0)
         );
-        return tempArray
+        return [...tempArray];
     }
 
     useEffect(() => {
-        var temp;
+
+        //content = props.tableContent;
+
         //console.log('in effect '+ props.tableSort.order);
         if(props.tableSort.order === 'des')
         {   
-        
-            setContent(filter());
+            content = filter();
         }
         
         content.map(ele => console.log(ele.noticeId))
