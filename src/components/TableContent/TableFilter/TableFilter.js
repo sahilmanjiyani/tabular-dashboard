@@ -9,7 +9,6 @@ const tableFilter = (props) => {
             <tr className="filter-row">
                 <td><input placeholder="id"/> </td>
                 <td><input placeholder="mm-dd-yyyy"/> </td>
-                <td><input placeholder="type"/> </td>
                 <td><input placeholder="name"/> </td>
                 <td><input placeholder="email"/> </td>
                 <td><input placeholder="Phone"/> </td>

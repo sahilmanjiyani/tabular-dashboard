@@ -10,11 +10,13 @@ import './TableContent.css';
 
 
 const TableContent = (props) => {
-    const [order, setOrder] = useState("asc");
-    const [field, setField] = useState("asc");
+    const [dataOrder, setDataOrder] = useState("");
+    const [field, setField] = useState("");
 
     const orderFunc = (ord, fld) => {
-        setOrder(ord);
+        // console.log(ord + " " + fld);
+
+        setDataOrder(ord);
         setField(fld);
     }
 
@@ -24,12 +26,12 @@ const TableContent = (props) => {
                    cellPadding="0"
                    cellSpacing="0" >
                 <thead>
-                    <TableHead orderFunction={(order, field) => orderFunc(order, field)}></TableHead>
+                    <TableHead orderFunction={(dataOrder, field) => orderFunc(dataOrder, field)}></TableHead>
                 </thead>
                 <tbody>
                     <TableFilter></TableFilter>
                     <TableBody  tableContent={props.content}
-                                tableSort={{ order, field }}></TableBody>
+                                tableSort={{ dataOrder, field }}></TableBody>
                 </tbody>
 
             </table>
