@@ -13,8 +13,8 @@
     <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/myData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/myData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IntelliJ/Projects/HelloWorld" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -79,7 +79,10 @@
       <workItem from="1600879114403" duration="15440000" />
       <workItem from="1600954219188" duration="28379000" />
       <workItem from="1601855144471" duration="9241000" />
-      <workItem from="1602145169129" duration="6711000" />
+      <workItem from="1602145169129" duration="10584000" />
+      <workItem from="1602541572626" duration="2026000" />
+      <workItem from="1602660089750" duration="293000" />
+      <workItem from="1602754445225" duration="4975000" />
     </task>
     <servers />
   </component>
@@ -103,6 +106,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="460" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1600901944487" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1602660397557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602660397557" />
+    <state width="1345" height="140" key="GridCell.Tab.0.bottom" timestamp="1602366733672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602366733672" />
+    <state width="1345" height="140" key="GridCell.Tab.0.center" timestamp="1602366733671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602366733671" />
+    <state width="1345" height="140" key="GridCell.Tab.0.left" timestamp="1602366733671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602366733671" />
+    <state width="1345" height="140" key="GridCell.Tab.0.right" timestamp="1602366733672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602366733672" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1600921834324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -119,6 +142,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600924865807" />
+    <state x="274" y="47" key="new project wizard" timestamp="1602660378867">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="47" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1602660378867" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1600992766198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

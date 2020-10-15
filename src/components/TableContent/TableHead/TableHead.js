@@ -8,8 +8,7 @@ import './TableHead.css';
 
 const TableHead = (props) => {
 
-//    const title = [ "Id", "Date", "Type", "Name", "Email", "Phone", "Address", "City", "Province" ];
-    const sortTitle = ["Id", "Date", "Name", "Email", "Address"];
+    const sortTitle = ["Id", "Date", "Name", "Email"];
 
     const title = [
         { field: "noticeId", title : "Id" },
@@ -20,15 +19,6 @@ const TableHead = (props) => {
         { field: "streetAddress", title : "Address" },
         { field: "city", title : "City" },
         { field: "province", title : "Province" }];
-
-    // const sortTitle = [
-    //     { noticeId: "Id" },
-    //     { noticeDate: "Date" },
-    //     { title: "Name" },
-    //     { emailAddress: "Email" },
-    //     { streetAddress: "Address" }
-    // ];
-
 
     const sortIcon = (eleTitle) => {
         return (

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import Auxx from "../../../hoc/Auxx/Auxx";
 import './TableBody.css';
 
-
 const TableBody = (props) => {
 
     let sort = props.tableSort.dataOrder;
@@ -11,8 +10,8 @@ const TableBody = (props) => {
     let tempArray = Object.assign(props.tableContent);
 
     // const [ content, setContent ] = useState(props.tableContent);
-    //var content = props.tableContent;
-    //var content = props.tableContent;
+    // var content = props.tableContent;
+    // var content = props.tableContent;
 
     const sortNumerical = (arr, sort) => {
         if (sort === "asc"){
@@ -24,18 +23,13 @@ const TableBody = (props) => {
     }
 
     const sortChar = (arr, sort) => {
+        console.log(field);
+        arr.sort((a,b) =>  console.log(b["contact"][field],a["contact"][field]));
+
         if (sort === "asc"){
-            arr.sort((a,b) => {
-                if(a[field] < b[field]) return -1;
-                else if(a[field] > b[field]) return 1;
-                else return 0;
-            })
+            arr.sort((a,b) => a["contact"][field].localeCompare(b["contact"][field]));
         } else {
-            arr.sort((a,b) => {
-                if(a[field] > b[field]) return -1;
-                else if(a[field] < b[field]) return 1;
-                else return 0;
-            });
+            arr.sort((a,b) => b["contact"][field].localeCompare(a["contact"][field]));
         }
         return [...arr];
     }
@@ -47,8 +41,7 @@ const TableBody = (props) => {
             return tempArray;
         } else if (field === "noticeId" || field === "noticeDate") {
             tempArray = sortNumerical(tempArray, sort);
-        } else if (field === "title" || field === "emailAddress"
-                        || field === "streetAddress") {
+        } else if (field === "contactName" || field === "emailAddress") {
             tempArray = sortChar(tempArray, sort);
         }
 

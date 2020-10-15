@@ -904,6 +904,7 @@
     "eventList": [],
     "contact": {
       "contactName": "Mike Saffran",
+      "emailAddress": "councilmeeting@toronto.ca",
       "city": "Toronto",
       "province": "Ontario",
       "postalCode": "M5V 3C6",
@@ -1020,6 +1021,7 @@
     "eventList": [],
     "contact": {
       "contactName": "Ishan Dasgupta",
+      "emailAddress": "councilmeeting@toronto.ca",
       "city": "Toronto",
       "province": "Ontario",
       "postalCode": "M5V 3C6",
@@ -2520,6 +2522,7 @@
     "eventList": [],
     "contact": {
       "contactName": "Kathie Capizzano",
+      "emailAddress": "councilmeeting@toronto.ca",
       "city": "Toronto",
       "province": "Ontario",
       "postalCode": "M5V 3C6",
