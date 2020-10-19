@@ -4,17 +4,31 @@ import Auxx from "../../../hoc/Auxx/Auxx";
 import "./TableFilter.css";
 
 const tableFilter = (props) => {
+
+    let temp = '';
+
+    const handleKeyDown = (e, field) => {
+
+        if(e.key === 'Enter') {
+            let filterInput = temp;
+            temp = "";
+            return props.filterEvent(filterInput, field);
+        } else {
+            temp += e.key;
+        }
+    }
     return(
         <Auxx>
             <tr className="filter-row">
-                <td><input placeholder="id"/> </td>
-                <td><input placeholder="mm-dd-yyyy"/> </td>
-                <td><input placeholder="name"/> </td>
-                <td><input placeholder="email"/> </td>
-                <td><input placeholder="Phone"/> </td>
-                <td><input placeholder="Address"/> </td>
-                <td><input placeholder="City"/> </td>
-                <td><input placeholder="Province"/> </td>
+                {
+                    props.title.map(ele => (
+                        <td key={ele.field}>
+                            <input placeholder={ele.placeholder}
+                                   onKeyDown={(e) => handleKeyDown(e, ele.field) }
+                            />
+                        </td>
+                    ))
+                }
             </tr>
         </Auxx>
     );

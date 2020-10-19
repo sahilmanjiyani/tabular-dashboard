@@ -12,9 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/myData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/myData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,9 @@
       <workItem from="1602145169129" duration="10584000" />
       <workItem from="1602541572626" duration="2026000" />
       <workItem from="1602660089750" duration="293000" />
-      <workItem from="1602754445225" duration="4975000" />
+      <workItem from="1602754445225" duration="5829000" />
+      <workItem from="1603012262299" duration="8682000" />
+      <workItem from="1603093232204" duration="517000" />
     </task>
     <servers />
   </component>

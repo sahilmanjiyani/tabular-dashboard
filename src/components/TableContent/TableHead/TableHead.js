@@ -8,17 +8,17 @@ import './TableHead.css';
 
 const TableHead = (props) => {
 
-    const sortTitle = ["Id", "Date", "Name", "Email"];
-
-    const title = [
-        { field: "noticeId", title : "Id" },
-        { field: "noticeDate", title : "Date" },
-        { field: "emailAddress", title : "Email" },
-        { field: "contactName", title : "Name" },
-        { field: "phone", title : "Phone" },
-        { field: "streetAddress", title : "Address" },
-        { field: "city", title : "City" },
-        { field: "province", title : "Province" }];
+    // const sortTitle = ["Id", "Date", "Name", "Email"];
+    //
+    // const title = [
+    //     { field: "noticeId", title : "Id" },
+    //     { field: "noticeDate", title : "Date" },
+    //     { field: "emailAddress", title : "Email" },
+    //     { field: "contactName", title : "Name" },
+    //     { field: "phone", title : "Phone" },
+    //     { field: "streetAddress", title : "Address" },
+    //     { field: "city", title : "City" },
+    //     { field: "province", title : "Province" }];
 
     const sortIcon = (eleTitle) => {
         return (
@@ -35,10 +35,10 @@ const TableHead = (props) => {
     <Auxx>
         <tr>
         {
-            title.map(ele => (
+            props.title.map(ele => (
                 <th key={ele.title}>
                     <span>{ele.title}</span>
-                    {   sortTitle.includes(ele.title) ? sortIcon(ele) : ''   }
+                    {   props.sortTitle.includes(ele.title) ? sortIcon(ele) : ''   }
                 </th>
                 )
             )
