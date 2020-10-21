@@ -12,7 +12,9 @@ import './TableContent.css';
 const TableContent = (props) => {
 
     const [dataOrder, setDataOrder] = useState("");
-    const [field, setField] = useState("");
+    const [dataField, setDataField] = useState("");
+    const [filterKey, setFilterKey] = useState("");
+    const [filterId, setFilterId] = useState("");
 
     const sortTitle = ["Id", "Date", "Name", "Email"];
 
@@ -27,10 +29,12 @@ const TableContent = (props) => {
         { field: "province", title : "Province", placeholder : "province" }];
 
     const orderFunc = (ord, fld) => {
-        // console.log(ord + " " + fld);
-
         setDataOrder(ord);
-        setField(fld);
+        setDataField(fld);
+    }
+    const filterFunc = (key, id) => {
+        setFilterKey(key);
+        setFilterId(id)
     }
 
     return(
@@ -45,12 +49,12 @@ const TableContent = (props) => {
                 </thead>
                 <tbody>
                     <TableFilter title={title}
-                                 filterEvent={(key, id) => console.log(key, id)}
+                                 filterEvent={(key, id) => filterFunc(key, id)}
                     ></TableFilter>
                     <TableBody  tableContent={props.content}
-                                tableSort={{ dataOrder, field }}></TableBody>
+                                tableFilter={{ filterKey, filterId }}
+                                tableSort={{ dataOrder, dataField }}></TableBody>
                 </tbody>
-
             </table>
         </Auxx>
     );

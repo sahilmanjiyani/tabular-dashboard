@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import Auxx from "../../../hoc/Auxx/Auxx";
 import './TableBody.css';
@@ -6,13 +6,14 @@ import './TableBody.css';
 const TableBody = (props) => {
 
     let sort = props.tableSort.dataOrder;
-    let field = props.tableSort.field;
+    let field = props.tableSort.dataField;
     let tempArray = Object.assign(props.tableContent);
+    let filterKey = props.tableFilter.filterKey;
+    let filterId = props.tableFilter.filterId;
 
-    // const [ content, setContent ] = useState(props.tableContent);
-    // var content = props.tableContent;
-    // var content = props.tableContent;
+    console.log(filterKey, filterId);
 
+    // func sort numeric field
     const sortNumerical = (arr, sort) => {
         if (sort === "asc"){
             arr.sort((a,b) => (a[field] > b[field]) ? 1 : ((b[field] > a[field]) ? -1 : 0));
@@ -22,8 +23,8 @@ const TableBody = (props) => {
         return [...arr];
     }
 
+    // func sort char field
     const sortChar = (arr, sort) => {
-        console.log(field);
         arr.sort((a,b) =>  console.log(b["contact"][field],a["contact"][field]));
 
         if (sort === "asc"){
@@ -34,15 +35,38 @@ const TableBody = (props) => {
         return [...arr];
     }
 
+    // func char filter
+    const filterArray = (arr, key, id) => {
+        let filteredArr;
+
+        if(id === "noticeId"){
+            filteredArr = arr
+                .filter(ele => {
+                    return (ele[id].toString().toLowerCase().includes(key.toLowerCase()))
+                });
+        } else {
+            filteredArr = arr
+                .filter(ele => {
+                    return (ele['contact'][id].toString().toLowerCase().includes(key.toLowerCase()))
+                });
+        }
+
+        console.log(filteredArr);
+        return [...filteredArr];
+    }
+
     const filter = () => {
 
-        // return all content no filter
-        if(sort === "") {
-            return tempArray;
-        } else if (field === "noticeId" || field === "noticeDate") {
+        if (field === "noticeId" || field === "noticeDate") {
             tempArray = sortNumerical(tempArray, sort);
         } else if (field === "contactName" || field === "emailAddress") {
             tempArray = sortChar(tempArray, sort);
+        }
+
+        console.log(filterId, filterKey);
+
+        if(filterId){
+            tempArray = filterArray(tempArray, filterKey, filterId);
         }
 
         // return filtered content

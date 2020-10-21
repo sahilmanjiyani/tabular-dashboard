@@ -3,35 +3,33 @@ import React from "react";
 import Auxx from "../../../hoc/Auxx/Auxx";
 import "./TableFilter.css";
 
-const tableFilter = (props) => {
+const TableFilter = (props) => {
 
-    let temp = '';
+    const handleFilter = (e, field) => {
+        e.preventDefault();
 
-    const handleKeyDown = (e, field) => {
-
-        if(e.key === 'Enter') {
-            let filterInput = temp;
-            temp = "";
-            return props.filterEvent(filterInput, field);
-        } else {
-            temp += e.key;
-        }
+        let val = document.getElementById(field).value;
+        return props.filterEvent(val, field);
     }
     return(
         <Auxx>
+
             <tr className="filter-row">
-                {
-                    props.title.map(ele => (
-                        <td key={ele.field}>
-                            <input placeholder={ele.placeholder}
-                                   onKeyDown={(e) => handleKeyDown(e, ele.field) }
-                            />
-                        </td>
-                    ))
-                }
+                    {
+                        props.title.map(ele => (
+                            <td key={ele.field}>
+                                    <form name={ele.field}
+                                        onSubmit={(e) => handleFilter(e, ele.field)}>
+                                        <input id={ele.field}
+                                               placeholder={ele.placeholder} />
+                                    </form>
+                            </td>
+                        ))
+                    }
             </tr>
+
         </Auxx>
     );
 }
 
-export default tableFilter;
+export default TableFilter;
