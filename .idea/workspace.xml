@@ -12,37 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="acad7ded-6d09-481e-abdb-331ec1377f86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api" beforeDir="false" afterPath="$PROJECT_DIR$/src/api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableBody/TableBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableFilter/TableFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableContent/TableHead/TableHead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/myData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/myData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/rawData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/rawData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Auxx/Auxx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Auxx/Auxx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +47,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ngx-admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -132,7 +101,7 @@
       <workItem from="1603093232204" duration="517000" />
       <workItem from="1603256569353" duration="1852000" />
       <workItem from="1603259913003" duration="2658000" />
-      <workItem from="1603280583892" duration="7462000" />
+      <workItem from="1603280583892" duration="8845000" />
     </task>
     <servers />
   </component>
@@ -164,30 +133,31 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="502" y="105" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog/72.27.1294.741@72.27.1294.741" timestamp="1603256659225" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1602660397557">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="511" y="134" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603290728083">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602660397557" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1603285505979">
+    <state x="511" y="134" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1603290728083" />
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1603291278521">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1345" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602366733672" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603285505979" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1603285505978">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1603291278521" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1603291278520">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1345" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602366733671" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1603285505978" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1603285505976">
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1603291278520" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1603291278519">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1345" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602366733671" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1603285505976" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1603285505978">
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1603291278519" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1603291278520">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1345" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602366733672" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1603285505978" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1603291278520" />
     <state width="1248" height="215" key="GridCell.Tab.1.bottom" timestamp="1603262959037">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
